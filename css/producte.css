@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+h1, h2, h3, h4, h5, h6, footer {
+  font-family: 'Anton';
+}
+body > header > a > i{
+  color: black;
+  margin-right: 30px;
+}
+body {
+  margin-bottom: 50px; 
+  background-color: #e0d7d7ac; 
+}
+
+header {
+  border-bottom: 3px solid #594E4C;
+}
+
+header img {
+  width: 50px;
+}
+
+header > i {
+  padding: 8px;
+}
+
+footer {
+  background-color: #B5A9A4; 
+  color: black; 
+  padding: 20px 0;
+}
+
+.footer-container {
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-left ul, .footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-left h4, .footer-right h4, .footer-center h4 {
+  margin-bottom: 10px;
+}
+
+.footer-center p {
+  margin: 5px 0;
+}
+
+.footer-left h4, .footer-right h4 {
+  margin-top: 0;
+}
+
+.footer-center h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-right i {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  header {
+    text-align: center;
+  }
+
+  header > i {
+    padding: 40px;
+  }
+
+  body > article > section > img {
+    width: 230px;
+    height: auto;
+    float: left;
+    margin-top: -40px;
+  }
+
+  article {
+    height: 300px; 
+    overflow: auto; 
+    border-bottom: 3px solid #594E4C;
+  }
+
+  .informacion {
+    text-align: center; 
+    margin-top: 60px;
+  }
+
+  .informacion > p{
+      padding: 10px;
+  }
+
+  .imatges > div {
+      display: inline-block;
+      margin: 10px;
+      border: 2px solid #594E4C;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .imatges img {
+      width: 100px;
+      height: 140px;
+    }
+
+    .imatges p {
+      margin-top: 5px;
+    }
+    body > article > section > div > button{
+      margin-top: 20px;
+    }
+  .footer-left, .footer-right, .footer-center {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width:576px) {
+  header {
+      text-align: center;
+    }
+
+    header > i {
+      padding: 40px;
+    }
+
+    body > article > section > img {
+      width: 230px;
+      height: auto;
+      float: left;
+      margin-top: -40px; 
+      margin-left: 300px;
+    }
+
+    article {
+      height: 300px; 
+      overflow: auto; 
+      border-bottom: 3px solid #594E4C;
+    }
+
+    .informacion {
+      text-align: center; 
+      margin-top: 60px;
+    }
+
+    .informacion > p {
+      padding: 10px;
+    }
+
+    .imatges > div {
+      display: inline-block;
+      margin: 10px;
+      border: 2px solid #594E4C;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .imatges img {
+      width: 100px;
+      height: 140px;
+    }
+
+    .imatges p {
+      margin-top: 5px;
+    }
+
+    body > article > section > div > button {
+      margin-top: 20px;
+    }
+
+    .footer-left, .footer-right, .footer-center {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
