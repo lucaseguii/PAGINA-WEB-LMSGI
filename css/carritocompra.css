@@ -30,6 +30,11 @@ header img {
 header > i {
   padding: 8px;
 }
+.imatges > div {
+  display: block; /* Asegura que los divs se comporten como bloques */
+  margin: 10px; 
+  text-align: center; 
+}
 
 footer {
   background-color: #B5A9A4; 
@@ -103,6 +108,7 @@ footer {
   header > i {
     padding: 40px;
   }
+
   .footer-left, .footer-right, .footer-center {
     width: 100%;
     text-align: center;
@@ -118,4 +124,33 @@ footer {
   .footer-right {
     width: 48%; 
   }
+  
+.imatges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.imatges > div {
+  margin: 10px; 
+  text-align: center; 
+}
+
+.imatges img {
+  width: 100%; 
+  height: auto; 
+}
+
+/* Estilo para el texto */
+.imatges p {
+  margin-top: 5px; /* Añade un pequeño espacio entre la imagen y el texto */
+}
+
+.total-container {
+  margin-top: 20px; /* Ajusta el margen superior del contenedor del total */
+}
+
+h3, p {
+  margin: 10px;
+}
 }

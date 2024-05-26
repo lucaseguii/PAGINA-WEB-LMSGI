@@ -13,7 +13,7 @@
 </head>
 <body>
   <header>
-    <i class="fas fa-filter"></i>
+    <a href="filtrosmenu.html"><i class="fas fa-filter"></i></a>
     <img src="../assets/logo.png" alt="Mobile Cases">
     <i class="fas fa-search"></i>
     <i class="fas fa-user"></i>
@@ -23,32 +23,45 @@
     <div class="imatges">
       <h2>Carrito de la compra</h2>
       <div>
-        <a href="views/producte.html">
-          <img src="../assets/descarga4.png" alt="Imatge2">
-          <p>Funda móvil 1</p>
-          <p>Precio</p>
+        <a href="producte.html">
+          <img src="../assets/descarga4.png" alt="Imatge1">
         </a>
+        <p>Funda móvil 1</p>
+        <p>Precio</p>
+        <label for="cantidad1">Cantidad:</label>
+        <input type="number" id="cantidad1" name="cantidad1" min="1" value="1">
       </div>
+      <!-- Copia y pega este bloque para cada producto adicional -->
       <div>
         <a href="views/producte.html">
           <img src="../assets/descarga4.png" alt="Imatge2">
-          <p>Funda móvil 2</p>
-          <p>Precio</p>
         </a>
+        <p>Funda móvil 2</p>
+        <p>Precio</p>
+        <label for="cantidad2">Cantidad:</label>
+        <input type="number" id="cantidad2" name="cantidad2" min="1" value="1">
       </div>
       <div>
         <a href="views/producte.html">
-          <img src="../assets/descarga4.png" alt="Imatge2">
-          <p>Funda móvil 3</p>
-          <p>Precio</p>
+          <img src="../assets/descarga4.png" alt="Imatge3">
         </a>
+        <p>Funda móvil 3</p>
+        <p>Precio</p>
+        <label for="cantidad3">Cantidad:</label>
+        <input type="number" id="cantidad3" name="cantidad3" min="1" value="1">
       </div>
       <div>
         <a href="views/producte.html">
-          <img src="../assets/descarga4.png" alt="Imatge2">
-          <p>Funda móvil 4</p>
-          <p>Precio</p>
+          <img src="../assets/descarga4.png" alt="Imatge4">
         </a>
+        <p>Funda móvil 4</p>
+        <p>Precio</p>
+        <label for="cantidad4">Cantidad:</label>
+        <input type="number" id="cantidad4" name="cantidad4" min="1" value="1">
+      </div>
+      <div>
+        <h3>Total:</h3>
+        <p>124,30€</p> 
       </div>
     </div>
   </main>
