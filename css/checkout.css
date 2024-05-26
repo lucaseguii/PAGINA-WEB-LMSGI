@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+h1, h2, h3, h4, h5, h6, footer {
+  font-family: 'Anton';
+}
+
+body > header > a > i {
+  color: black;
+  margin-right: 30px;
+}
+
+body {
+  margin-bottom: 50px;
+  background-color: #e0d7d7ac;
+}
+
+header {
+  border-bottom: 3px solid #594E4C;
+  margin-bottom: 10px;
+}
+
+header img {
+  width: 50px;
+}
+
+header > i {
+  padding: 8px;
+}
+
+footer {
+  background-color: #B5A9A4;
+  color: black;
+  padding: 20px 0;
+  margin-top: 20px;
+  border-top: 3px solid #594E4C;
+}
+
+.footer-container {
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-left ul,
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-left h4,
+.footer-right h4,
+.footer-center h4 {
+  margin-bottom: 10px;
+}
+
+.footer-center p {
+  margin: 5px 0;
+}
+
+.footer-left h4,
+.footer-right h4 {
+  margin-top: 0;
+}
+
+.footer-center h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-right i {
+  margin-right: 10px;
+}
+
+.filtro-group {
+  margin-bottom: 20px;
+}
+.pagarahora {
+  margin-top: 20px; 
+}
+.proceed-button {
+  background-color: #594E4C;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 200px; 
+}
+
+@media only screen and (max-width: 575px) {
+  header {
+    text-align: center;
+  }
+
+  header > i {
+    padding: 40px;
+  }
+
+  .footer-left,
+  .footer-right,
+  .footer-center {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .checkout-container {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .checkout-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proceed-button {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  header {
+    text-align: center;
+  }
+
+  header > i {
+    padding: 40px;
+  }
+  .footer-left,
+  .footer-right,
+  .footer-center {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 48%;
+  }
+
+  .checkout-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-bottom: 40px;
+  }
+
+  .checkout-container label {
+    grid-column: 1;
+    text-align: right;
+  }
+
+  .checkout-container input,
+  .checkout-container select,
+  .checkout-container textarea {
+    grid-column: 2;
+    width: 100%;
+  }
+}

@@ -30,11 +30,6 @@ header img {
 header > i {
   padding: 8px;
 }
-.imatges > div {
-  display: block; /* Asegura que los divs se comporten como bloques */
-  margin: 10px; 
-  text-align: center; 
-}
 
 footer {
   background-color: #B5A9A4; 
@@ -93,10 +88,42 @@ footer {
   header > i {
     padding: 40px;
   }
+  
   .footer-left, .footer-right, .footer-center {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+  }
+
+  .imatges > div {
+    margin: 10px 0;
+  }
+
+  .total-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proceed-button {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #594E4C;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .proceed-button:hover {
+    background-color: #3e3937;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
   }
 }
 
@@ -124,33 +151,61 @@ footer {
   .footer-right {
     width: 48%; 
   }
-  
-.imatges {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; 
-}
 
-.imatges > div {
-  margin: 10px; 
-  text-align: center; 
-}
+  .imatges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+  }
 
-.imatges img {
-  width: 100%; 
-  height: auto; 
-}
+  .imatges > div {
+    flex: 1 1 calc(25% - 20px);
+    max-width: 200px; 
+    margin: 10px; 
+    text-align: center; 
+    border: 1px solid #594E4C; 
+    padding: 10px;
+  }
 
-/* Estilo para el texto */
-.imatges p {
-  margin-top: 5px; /* Añade un pequeño espacio entre la imagen y el texto */
-}
+  .imatges img {
+    width: 100%; 
+    height: auto; 
+  }
 
-.total-container {
-  margin-top: 20px; /* Ajusta el margen superior del contenedor del total */
-}
+  .imatges p {
+    margin-top: 5px; 
+  }
 
-h3, p {
-  margin: 10px;
-}
+  .total-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .proceed-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #594E4C;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .proceed-button:hover {
+    background-color: #3e3937;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
 }
